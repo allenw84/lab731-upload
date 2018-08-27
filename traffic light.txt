@@ -1,0 +1,8 @@
+Intelligent Transportation System
+
+1.Dynamic Traffic-Light Phase Plan Protocol (DT3P) 
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6148726
+
+2.TRADER:Traffic Light Phases Aware Driving for
+Reduced Traffic Congestion in Smart Cities
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8090783
