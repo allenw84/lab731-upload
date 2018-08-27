@@ -1,0 +1,22 @@
+small cell base station (SBS)
+small cell network (SCN)
+physical resource block (PRB)
+
+
+
+A Unified Framework for Vehicle Rerouting and Traffic Light Control to Reduce Traffic Congestion
+Alleviating traffic congestion
+Function
+1. vehicle rerouting
+2. traffic light control
+目前work
+1. Wiering et al有利用reinforcement learning to minimize 總體車輛等待時間，但不適合用在大規模交通場景
+2. Park et al利用genetic algorithm to delay minimization for traffic singal timing
+
+
+Employing Cyber-Physical Systems Dynamic Traffic Light Control at Road Intersections
+目前work
+1. Yousef et al 利用WSN估計交通量來為紅綠燈做出抉擇
+2. Zhou et al.基於交通量多寡來控制紅綠燈變換
+
+
