@@ -1,0 +1,139 @@
+{
+    "vnfd": [
+       {
+            "lifecycle_event": [
+               {
+                    "event": "INSTANTIATE",
+                    "lifecycle_events": [
+                        "install.sh"
+                    ],
+                    "id": "1f8c9571-386a-4f1d-96e5-3587fb1f0ed4",
+                    "hbVersion": 1,
+                    "shared": false,
+                    "metadata": {}
+                }
+            ],
+            "vdu": [
+               {
+                    "name": "safety-1",
+                    "vm_image": [
+                        "ubuntu16.04"
+                    ],
+                    "lifecycle_event": [],
+                    "fault_management_policy": [],
+                    "scale_in_out": 3,
+                    "vnfc": [
+                       {
+                            "connection_point": [
+                               {
+                                    "virtual_link_reference": "private",
+                                    "floatingIp": "random",
+                                    "interfaceId": 0,
+                                    "id": "2efa4344-f0c5-4eaf-a389-2f6aad00198c",
+                                    "hbVersion": 0,
+                                    "shared": false,
+                                    "metadata": {}
+                                }
+                            ],
+                            "id": "dd9f49a1-79ac-48dc-8c7c-2d0f366fb26f",
+                            "hbVersion": 1,
+                            "shared": false,
+                            "metadata": {}
+                        }
+                    ],
+                    "vnfc_instance": [],
+                    "monitoring_parameter": [],
+                    "vimInstanceName": [],
+                    "id": "eef18f24-5ed3-4081-965b-921fe243e136",
+                    "hbVersion": 1,
+                    "projectId": "a44feeff-a200-4ad1-b98f-7ade5d27936a",
+                    "shared": false,
+                    "metadata": {}
+                }
+            ],
+            "virtual_link": [
+               {
+                    "connection_points_references": [],
+                    "qos": [],
+                    "test_access": [],
+                    "name": "private",
+                    "id": "2f77a0cc-17f7-4ef8-8d02-385ca04d3715",
+                    "hbVersion": 0,
+                    "shared": false,
+                    "metadata": {}
+                }
+            ],
+            "vdu_dependency": [],
+            "deployment_flavour": [
+               {
+                    "df_constraint": [],
+                    "costituent_vdu": [],
+                    "flavour_key": "m1.small",
+                    "ram": 0,
+                    "disk": 0,
+                    "vcpus": 0,
+                    "id": "1ab8bb7d-e0b8-4ab7-a25d-7da12cc85874",
+                    "hbVersion": 0,
+                    "shared": false,
+                    "metadata": {}
+                }
+            ],
+            "manifest_file_security": [],
+            "type": "server",
+            "endpoint": "generic",
+            "vnfPackageLocation": "ed864599-5bef-43fd-887b-bd4d3bb72e04",
+            "requires": {},
+            "provides": [],
+            "cyclicDependency": false,
+            "createdAt": "2018.08.13 at 15:14:11 CST",
+            "updatedAt": "2018.08.13 at 15:14:11 CST",
+            "name": "safety",
+            "vendor": "Chang",
+            "version": "1.0",
+            "vnffgd": [],
+            "vld": [],
+            "monitoring_parameter": [],
+            "service_deployment_flavour": [],
+            "auto_scale_policy": [],
+            "connection_point": [],
+            "id": "03c1825c-cff9-49cb-92f9-c8ee2007e167",
+            "hbVersion": 1,
+            "projectId": "a44feeff-a200-4ad1-b98f-7ade5d27936a",
+            "shared": false,
+            "metadata": {},
+            "$$hashKey": "object:766"
+        }
+    ],
+    "vnf_dependency": [],
+    "pnfd": [],
+    "enabled": true,
+    "createdAt": "2018.08.13 at 15:14:11 CST",
+    "updatedAt": "2018.08.13 at 15:14:11 CST",
+    "name": "Safety",
+    "vendor": "Chang",
+    "version": "1.0",
+    "vnffgd": [],
+    "vld": [
+       {
+            "dns": [],
+            "number_of_endpoints": 0,
+            "connection": [],
+            "qos": [],
+            "test_access": [],
+            "name": "private",
+            "id": "6a455e23-c5d0-4081-a832-30b71604b4ea",
+            "hbVersion": 0,
+            "shared": false,
+            "metadata": {}
+        }
+    ],
+    "monitoring_parameter": [],
+    "service_deployment_flavour": [],
+    "auto_scale_policy": [],
+    "connection_point": [],
+    "id": "2f1f32a3-3e37-452d-aa38-017f356b2970",
+    "hbVersion": 1,
+    "projectId": "a44feeff-a200-4ad1-b98f-7ade5d27936a",
+    "shared": false,
+    "metadata": {}
+}
