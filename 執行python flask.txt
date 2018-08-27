@@ -1,0 +1,28 @@
+1.開啟apache
+sudo systemctl start apache2
+
+2.開啟python虛擬環境(Linux)
+. venv/bin/activate
+
+3.執行python flask
+python3 -m flask run --host=0.0.0.0 --port=80
+
+
+重啟ftp service
+sudo service  vsftpd restart
+
+python flask with Apache in Ubuntu 16.04
+https://blog.csdn.net/Artprog/article/details/64906842
+
+python flask upload file
+https://blog.csdn.net/qq_25730711/article/details/53643758
+
+python upload file using ssh
+https://qxf2.com/blog/ssh-using-python-paramiko/
+
+python-flask upload file using sftp
+https://www.tutorialspoint.com/flask/flask_file_uploading.htm
+http://flask.pocoo.org/docs/0.12/patterns/fileuploads/
+
+
+
